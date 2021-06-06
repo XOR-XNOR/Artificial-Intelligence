@@ -1,0 +1,36 @@
+def build(text_file):
+    tree = {}
+    with open(text_file) as newfile:
+        for line in newfile:
+            a = line.split()
+            key = a[0]
+            values = a[1:]
+            tree[key] = values
+    return tree
+
+def states():
+    start = input('Start State: ')
+    stop = input('Destination: ')
+    return (start, stop)
+
+def dfs():
+    problem = build(input('text file: '))
+    start, stop = states()
+
+    stack = []
+    stack.append((start, []))
+    visited = list()
+
+    while stack:
+        currentState, step = stack.pop()
+        if currentState in visited:
+            continue
+        if currentState==stop:
+            print(step+[currentState])
+            break
+
+        visited.append(currentState)
+        for successor in problem[currentState]:
+            stack.append((successor, step+[currentState]))
+
+dfs()
