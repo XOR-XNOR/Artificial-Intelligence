@@ -1,0 +1,22 @@
+A max_agent B I P
+B min_agent C D
+I min_agent J K
+P min_agent Q R
+C max_agent E F
+D max_agent G H
+J max_agent L M
+K max_agent N O
+Q max_agent S T
+R max_agent U V
+E terminal 5
+F terminal 6
+G terminal 7
+H terminal 9
+L terminal 1
+M terminal 2
+N terminal 0
+O terminal 1
+S terminal 8
+T terminal 1
+U terminal 9
+V terminal 2
