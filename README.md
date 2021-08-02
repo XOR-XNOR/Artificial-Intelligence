@@ -1,5 +1,9 @@
 # Artificial-Intelligence
-Deapth-First-Search
-Breadth-First-Search
-Uniform-Cost-Search
-A*-Search
+
+**Deapth-First-Search**
+
+**Breadth-First-Search**
+
+**Uniform-Cost-Search**
+
+**A-Star-Search**
