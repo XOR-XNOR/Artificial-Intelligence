@@ -7,3 +7,7 @@
 **Uniform-Cost-Search**
 
 **A-Star-Search**
+
+**MiniMax**
+
+**Alpha-Beta-Pruning**
