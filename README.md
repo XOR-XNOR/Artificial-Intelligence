@@ -1,6 +1,6 @@
 # Artificial-Intelligence
 
-**Deapth-First-Search**
+**Depth-First-Search**
 
 **Breadth-First-Search**
 
